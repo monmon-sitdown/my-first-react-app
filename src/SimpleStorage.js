@@ -91,7 +91,6 @@ const SimpleStorage = () => {
         onChange={(e) => setNewValue(e.target.value)}
       />
       <button onClick={handleSetValue}>Set Value</button>
-      <button onClick={handleGetValue}>Get Value</button>
     </div>
   );
 };
