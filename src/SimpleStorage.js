@@ -81,7 +81,8 @@ const SimpleStorage = () => {
         to the user's Web3 wallet (such as MetaMask) on the ETH Sepolia network.
         After a successful connection, the user can pay the gas fee and store
         the new number. After a moment, the new number entered by the user will
-        be displayed in the [Current Value] section.
+        be displayed in the [Current Value] section. The contract address on
+        Sepolia testnet : 0x5327d271a06625FA7f966Def9A39fd10723855F6
       </p>
 
       <p>Current Value: {storageValue}</p>
