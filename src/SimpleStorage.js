@@ -74,14 +74,14 @@ const SimpleStorage = () => {
       >
         This is a decentralized application (DApp) that allows users to store
         and retrieve a value on the Ethereum blockchain. This smart contract has
-        been deployed on the Sepolia test network. The 《Current Value》
-        displayed shows the number currently stored in the contract. When the
-        user wishes to modify the number, they can enter the desired number in
-        the text box and click 《Set Value》. The webpage will then attempt to
-        connect to the user's Web3 wallet (such as MetaMask) on the ETH Sepolia
-        network. After a successful connection, the user can pay the gas fee and
-        store the new number. After a moment, the new number entered by the user
-        will be displayed in the 《Current Value》 section.
+        been deployed on the Sepolia test network. The [Current Value] displayed
+        shows the number currently stored in the contract. When the user wishes
+        to modify the number, they can enter the desired number in the text box
+        and click [Set Value] button. The webpage will then attempt to connect
+        to the user's Web3 wallet (such as MetaMask) on the ETH Sepolia network.
+        After a successful connection, the user can pay the gas fee and store
+        the new number. After a moment, the new number entered by the user will
+        be displayed in the [Current Value] section.
       </p>
 
       <p>Current Value: {storageValue}</p>
