@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import abi from "./SimpleStorage.abi.json";
 
-const contractAddress = process.env.REACT_APP_SEPOLIA_CONTRACT; // Change to your contract address
+const contractAddress = process.env.REACT_APP_SEPOLIA_CONTRACT;
 
 const SimpleStorage = () => {
   const [storageValue, setStorageValue] = useState("");
